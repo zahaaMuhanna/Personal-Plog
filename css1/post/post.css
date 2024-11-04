@@ -1,0 +1,112 @@
+/* Blog Header Section as Full-Width Sidebar */
+.blog-header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Blog Container */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Author Info Section */
+.author-info {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.author-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.author-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.author-title {
+    font-size: 1em;
+    color: #555;
+}
+
+.author-company {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.author-bio {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+    display: grid;
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #fff;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.post-img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.post-content h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post-meta {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+}
+

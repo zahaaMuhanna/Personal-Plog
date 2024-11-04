@@ -1,0 +1,21 @@
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .blog-header {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    .author-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .author-avatar {
+        margin: 0 auto;
+    }
+
+    .blog-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,154 @@
+/* start navbar section style */
+.navbar-section{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listItems-nav {
+    display: flex;
+    gap: 50px; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #7c8291;
+}
+/* end navbar style section */
+
+
+
+/* start header style section */
+
+.header-section{
+    background-color: #f1f2f3;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child11 a{
+    text-decoration: none;
+}
+figcaption{
+    font-size: 15px;
+    color: #5869da;
+}
+
+h1{
+    font-size: 45px;
+    max-width: 70%;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 span{
+    color: #5869da;
+}
+
+.header-headingText p{
+    color: #95a0ba;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+/* end header style section */
+
+
+
+/* start posts style section */
+.header-heading{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;    
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.posts-content{
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "post1 post2 post3"
+    "post4 post5 post6"
+    ;
+    gap: 25px;
+    padding: 30px;
+}
+
+#child11{grid-area: post1;}
+#child2{grid-area: post2;}
+#child3{grid-area: post3;}
+#child4{grid-area: post4;}
+#child5{grid-area: post5;}
+#child6{grid-area: post6;}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.post-btn{
+    background-color: #5869da;
+    margin: 20px 15px;
+    color: #f1f2f3;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+}
+.tags {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.tag {
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.tag.food {
+    color: #228B22;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9em;
+    color: #888;
+    font-family: Arial, sans-serif;
+}
+/* end posts style section */
+
+
